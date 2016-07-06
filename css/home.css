@@ -1,0 +1,71 @@
+#promo{
+	margin-top: -1%;
+}
+/*Slider*/
+#promo, #alma{
+	margin-bottom: 4%;
+}
+.fa-chevron-right, .fa-chevron-left{
+	margin-top: 100%;
+}
+.is{
+	width: 100%;
+}
+/*Alma del Sushi*/
+.text-alma{
+	margin-bottom: 4%;
+	margin-top: 3%;
+	text-align: justify;
+}
+.text-alma h3{
+ font-size: 2em !important;
+}
+.text-alma h2{
+	color: #800000;
+	text-shadow: -4px -2px 16px rgba(0, 0, 0, 1);
+	padding-bottom: 2%;
+	font-size: 2.5em !important;
+}
+/*Cambio Japones*/
+.alma-s:before{
+	font-size: 1.2em;
+}
+.alma-s:hover:before{
+	font-size:1.5em;
+	font-weight: bolder;
+	color:  #b91817;
+	font-family:'Righteous', cursive !important;
+}
+#link-a:before {
+	content:"EL ALMA DEL SUSHI";
+}
+#link-a:hover:before {
+	content:"寿司の魂";
+}
+/*Seccion Promo*/
+section{
+	margin-bottom: .5%;
+}
+/*Ajustes Responsive para Smartphones*/
+@media screen and (max-width: 600px) {
+	#promo{
+		margin-top: -4%;
+	}
+	#top-log{
+		margin-top: 14%;
+	}
+	.logo{
+		height: 100%;
+		width: 50%;
+		margin-left: 23%;
+	}
+	.alma-s:before{
+		font-size: 80% !important;
+	}
+	.alma-s:hover:before{
+		font-size:70% !important;
+	}
+	.text-alma h3{
+		font-size: 90% !important;
+	}
+}

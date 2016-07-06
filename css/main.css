@@ -1,0 +1,225 @@
+body{
+	background-color: #e8e8e7 !important;
+	font-family: 'Lato', sans-serif !important;
+}
+/*Menú Responsive*/
+.navbar-default{
+	background-color: #333333 !important;
+}
+footer{
+	font-family: 'lato', sans-serif !important;
+}
+.logo-m{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2em;
+}
+.logo-m:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.logo-m h3{
+	font-size: 99% !important;
+	color: white !important;
+	margin-left: 55%;
+	margin-top: -40%;
+}
+.logo-m img{
+	height: 2em;
+	margin-top: 15%;
+}
+.logo-m p {
+	color: #cb201a;
+	margin-left: 69%;
+	font-size: 73% !important;
+	margin-top: -17%;
+	margin-left: 55% !important;
+}
+.navbar-right{
+	margin-top: 1% !important;
+}
+/*Efecto texto en japonés*/
+.japon:before{
+	font-size: .895em;
+}
+.japon:hover:before{
+	font-size:1.3em;
+	font-weight: bolder;
+	color:  #b91817;
+	padding: 3em;
+	font-family:'Righteous', cursive !important;
+}
+#link0:before {
+	content:"PROMOCIONES";
+	padding-right: 0%;
+}
+#link0:hover:before {
+	content:"プロモーション";
+}
+#link1:before {
+	content:"NUESTRA CARTA";
+	padding-right: 0%;
+}
+#link1:hover:before {
+	content:"メニュー";
+}
+#link2:before {
+	content:"SERVICIO A DOMICILIO";
+}
+#link2:hover:before {
+	content:"ホーム";
+}
+#link4:before {
+	content:"BANQUETES Y PRESUPUESTOS";
+}
+#link4:hover:before {
+	content:"宴会";
+	padding: 4em !important;
+}
+#link6:before {
+	content:"UBICACIÓN";
+}
+#link6:hover:before {
+	content:"場所";
+	padding: 2em !important;
+}
+.japonf:before{
+	font-size: .895em;
+}
+.japonf:hover:before{
+	font-size:.7em;
+	font-weight: bolder;
+	color:  #b91817;
+	font-family:'Righteous', cursive !important;
+}
+#link7:before {
+	content:"BitStudio";
+}
+#link7:hover:before {
+	content:"ビット スタジオ";
+}
+#link8:before {
+	content:"Johana Magaña";
+}
+#link8:hover:before {
+	content:"城端 マガナ";
+}
+/*Fin Menu Responsive*/
+/*Logo*/
+#top-log{
+	margin-top: 6%;
+}
+.logo{
+	height: 100%;
+	width: 50%;
+	margin-left: 20%;
+}
+/*footer*/
+footer{
+	background-color: #0d0d0d;	color: #918c8c;
+}
+.pd-f{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-bottom: .1em solid #4d4d4d;
+	margin-bottom: 1.5%;
+}
+footer img {
+	opacity: .2;
+	margin-left: 40%;
+	margin-bottom: 2%;
+	width: 20%;
+	height: 20%;
+}
+p{
+	font-size: 95% !important;
+	text-align: center;
+}
+.brdr-sides{
+	border-right: .1em solid #4d4d4d;
+	border-left: .1em solid #4d4d4d;
+}
+footer a{
+	text-decoration: none;
+	color: inherit;
+	font-family: 'Lato', sans-serif;
+}
+footer a:hover {
+	color: #800000;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+footer li{
+		list-style-type: none;
+		margin-left: 0% !important;
+	}
+/*Ajustes Responsive para Tablets*/
+@media only screen and (max-width : 1024px) {
+	.social-foot li{
+		list-style-type: none;
+		margin-left: -20% !important;
+	}
+	.logo{
+		height: 100%;
+		width: 90%;
+		margin-left: 0%;
+	}
+	#top-log{
+		margin-top: 10% !important;
+	}
+	.logo-m h3{
+		margin-top: -35% !important;
+	}
+	.logo-m img{
+		height: 1.5em;
+		margin-top: 15%;
+	}
+	.navbar-right{
+		margin-top: 0% !important;
+		font-size: 85%;
+	}
+	.japon:hover:before{
+		font-size:.90em;
+	}
+}
+/*Ajustes Responsive para Smartphones*/
+@media screen and (max-width: 600px) {
+		footer img {
+			margin-left: 25%;
+			width: 50%;
+			height: 80%;
+		}
+		footer {
+			font-size: 50%;
+		}
+		.social-foot{
+			font-size: 90% !important;
+		}
+		.social-foot li{
+			list-style-type: none;
+			margin-left: -180% !important;
+		}
+		.logo-m h3{
+			font-size: 99% !important;
+			color: white !important;
+			margin-left: 11%;
+			margin-top: -8% !important;
+		}
+		.logo-m img{
+			height: 2em;
+			margin-top: 2%;
+		}
+		.logo-m p {
+			margin-left: -44.5% !important;
+			margin-top: -3%
+		}
+		#top-log{
+			margin-top: 16% !important;
+		}
+		.logo{
+			height: 100%;
+			width: 50%;
+			margin-left: 23%;
+		}
+}

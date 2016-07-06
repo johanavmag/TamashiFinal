@@ -1,0 +1,198 @@
+/*Nuestra Carta*/
+.carta .bg-white{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border-radius: .7em;
+	height: 14em;
+}
+#carta button:not(.cerr){
+	background-color: transparent;
+	padding: 22% !important;
+	margin-top: 8%;
+	border-radius: 7em;
+	border: .25em solid gray;
+}
+.cerr{
+	border: none !important;
+	padding: 2% !important;
+}
+/*Titulos Carta*/
+h3{
+	color: #b30000 !important;
+	text-shadow: -4px -2px 16px rgba(0, 0, 0, 1);
+}
+/*Imagenes*/
+.im-car{
+	width: 100%;
+}
+.simg{
+	width: 5.5em !important;
+}
+#carta{
+	margin-top: 1%;
+	margin-bottom: 4%;
+	margin-left: 10%;
+}
+.mg-top{
+	margin-top: -10%;
+}
+.fa-chevron-left, .fa-chevron-right{
+	margin-top: 5em !important;
+}
+.modal-footer button {
+	background-color:#fff !important;
+}
+/*Tamañano de fuentes*/
+.f-size{
+	font-size: 80%;
+}
+.f-size-1{
+	font-size: 70%;
+	margin-left: -25%;
+}
+/*Efectos imagen */
+#carta button:hover{
+	border: .25em solid #b30000;
+}
+.simg1{
+	width: 8em;
+}
+.brd-red img{
+	margin: 20%;
+	margin-right: 30% !important;
+}
+.brd-red{
+	width: 12.5em;
+	border: .3em solid gray;
+	padding-right: 20%;
+	border-radius: 7em;
+	margin-top: .5em;
+}
+.l-u{
+	margin-left: 6%;
+}
+/*Cambio Japones*/
+.menuj:before{
+	font-size: .9em;
+}
+.menuj:hover:before{
+	font-size:.8em;
+	font-weight: bolder;
+	color:  #b91817;
+	font-family:'Righteous', cursive !important;
+}
+#link-1:before {
+	content:"Menú Corrido";
+}
+#link-1:hover:before {
+	content:"メニューの実行";
+}
+#link-2:before {
+	content:"Rolls";
+}
+#link-2:hover:before {
+	content:"ロール";
+}
+#link-3:before {
+	content:"Special Rolls";
+}
+#link-3:hover:before {
+	content:"特別なロール";
+}
+#link-4:before {
+	content:"Tepanyaki";
+}
+#link-4:hover:before {
+	content:"鉄板焼き";
+}
+#link-5:before {
+	content:"Yakitori";
+}
+#link-5:hover:before {
+	content:"焼き鳥";
+}
+#link-6:before {
+	content:"Kakiage";
+}
+#link-6:hover:before {
+	content:"かき揚げ";
+}
+#link-7:before {
+	content:"Kushiage";
+}
+#link-7:hover:before {
+	content:"串揚げ";
+}
+#link-8:before {
+	content:"Yakimeshi";
+}
+#link-8:hover:before {
+	content:"焼き飯";
+}
+#link-9:before {
+	content:"Extras";
+}
+#link-9:hover:before {
+	content:"エクストラ";
+}
+#link-10:before {
+	content:"Bebidas Frias";
+}
+#link-10:hover:before {
+	content:"冷たい飲み物";
+}
+#link-11:before {
+	content:"Bebidas Calientes";
+}
+#link-11:hover:before {
+	content:"ホットドリンク";
+}
+#link-12:before {
+	content:"Postres";
+}
+#link-12:hover:before {
+	content:"デザート";
+}
+/*-----*/
+/*Ajustes Responsive para Tablets*/
+@media only screen and (max-width : 1024px) {
+	#carta{
+		margin-top: 15% !important;
+		margin-bottom: 4%;
+	}
+}
+/*Ajustes Responsive para Smartphones*/
+@media screen and (max-width: 600px) {
+	#carta{
+		margin-top: 2% !important;
+		margin-bottom: 4%;
+		margin-left: 0%;
+	}
+	.col-xs-8{
+		font-size: 80%;
+	}
+	.f-size{
+		font-size: 90% !important;
+	}
+	h6{
+		font-size: 90% !important;
+	}
+	.f-size-1{
+		font-size: 70%;
+	}
+	h3{
+		font-size: 100% !important;
+	}
+	.brd-red{
+		width: 5.8em;
+	}
+	.simg1{
+		width: 3.5em !important;
+	}
+	.simg{
+		width: 3em !important;
+	}
+	.l-u{
+		margin-left: 20%;
+	}
+}

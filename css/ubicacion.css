@@ -1,0 +1,114 @@
+/*Ubicación*/
+.txt-red, h4, .ubi{
+	color: #B30000 !important;
+	text-align: center;
+	text-shadow: -4px -2px 16px rgba(0, 0, 0, 1);
+}
+#ubica{
+	margin-top: 8%;
+}
+/*Cambio Japones*/
+.ubi{
+	text-align: center;
+}
+.ubi:before{
+	font-size: 1em;
+}
+.ubi:hover:before{
+	font-size:.8em;
+	font-weight: bolder;
+	color:  #b91817;
+	font-family:'Righteous', cursive !important;
+}
+#link-u1:before {
+	content:"Dirección";
+}
+#link-u1:hover:before {
+	content:"アドレス";
+}
+#link-u2:before {
+	content:"Horario";
+}
+#link-u2:hover:before {
+	content:"スケジュール";
+}
+#link-u3:before {
+	content:"Teléfono";
+}
+#link-u3:hover:before {
+	content:"電話";
+}
+#link-u4:before {
+	content:"Referencias";
+}
+#link-u4:hover:before {
+	content:"リファレンス";
+}
+#link-u5:before {
+	content:"Contáctanos";
+}
+#link-u5:hover:before {
+	content:"コンタクト";
+}
+.mg-3{
+	margin-bottom: 2%;
+}
+.pd-3{
+	padding: 5%;
+}
+iframe{
+	height: 30em;
+	margin-bottom: 10%;
+}
+/*Formulario*/
+input{
+	color: white !important;
+	margin-bottom: 1em;
+	background-color: #f2f2f2 !important;
+}
+#form input, .grande [type="text"]{
+	width: 100%; /*ancho por defecto*/
+	background:url("http://www.lolitamoda.com/assets/recortes/icono-persona-9bce4184b737c411e0f42c7113e11520.png") no-repeat 9px center; /*icono lupa*/
+	padding: 1em 2em 1em 4em;
+	background-color: #f2f2f2 !important;
+}
+#form input, #form input, .grande [type="text"]:focus{
+	width:100%; /*tamaño del boton buscar al hacer click*/
+	padding-left: 2.5em; /*espacio entre el icono lupa y el placeholder*/
+	font-size: 1em;
+}
+.grande[type="text"]{
+	height: 10em;
+	background: transparent url("http://i1224.photobucket.com/albums/ee366/jd-vktr/Elementos%20Iconos/Edit16.png") no-repeat 9px center !important;
+}
+.grande[type="text"]:focus{
+	height: 2em;
+}
+.mail[type="text"]{
+	background: transparent url("http://www.e2000.es/portada-theme/images/e2000/imagenes/iconos_sobre_bn.jpg") no-repeat 9px center !important; /*icono mail*/
+}
+.enviar{
+	width:20%;
+	float: right;
+	padding: 2%;
+	background-color: #B30000; 
+	color: #fff;
+}
+
+/*Ajustes Responsive para Tablets*/
+@media only screen and (max-width : 1024px) {
+	#ubica{
+		margin-top: 10%;
+	}
+	.pd-3{
+		padding: 0%;
+		padding-bottom: 7%;
+	}
+
+}
+/*Ajustes Responsive para Smartphones*/
+@media screen and (max-width: 600px) {
+	#ubica{
+		margin-top: 5%;
+	}
+}
